@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+coverage/
+
+# user-uploaded documents (private data)
+uploads/*
+!uploads/.gitkeep
+
+# local database
+.data/
+.nuxt/
+.output/
